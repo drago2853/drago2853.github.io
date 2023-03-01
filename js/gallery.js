@@ -23,7 +23,7 @@ let gallery = `
             <img src="img/5.jpg"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
 
-            <img src="img/2.jpg"
+            <img src="img/2.JPG"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
         </div>
 
@@ -47,7 +47,7 @@ let gallery = `
             <img src="img/11.jpg"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
 
-            <img src="img/12.jpg"
+            <img src="img/12.JPG"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
         </div>
 
