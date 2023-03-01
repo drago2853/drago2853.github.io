@@ -294,3 +294,8 @@ padding-top: 60px;
     border: 10px solid black;
     background-color: #7ca5ff67;
 }
+
+#navbarCollapse {
+    margin-left: auto;
+    margin-right: 0;
+}
