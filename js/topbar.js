@@ -9,10 +9,10 @@ let topbarTemplate = `
                     <p class="m-0"><i class="fa fa-envelope-open me-2"></i>danilomazic@gmail.com</p>
                 </div>
                 <div class="py-2 px-2">
-                    <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+381 64 562 7536</p>
+                    <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+381 64 123 1234</p>
                 </div>
                 <div class="py-2 px-2">
-                    <p class="m-0"><i class="fa fa-phone-alt me-2"></i>Viber: +11 64 562 7536</p>
+                    <p class="m-0"><i class="fa fa-phone-alt me-2"></i>Viber: +11 64 123 1234</p>
                 </div>
             </div>
         </div>
