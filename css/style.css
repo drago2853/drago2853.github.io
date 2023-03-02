@@ -323,17 +323,6 @@ nav{
     margin-top: 0;
 }
 
-#navbarLogo{
-    text-align:left;
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 0;
-}
-
-.fitContent {
-    width: fit-content;
-}
-
 #listNavbar, #listNavbarPages {
     text-align: right;
     margin-left: auto;
@@ -343,36 +332,23 @@ nav{
     margin-top: 20px;
 }
 
-#listNavbarPages {
-    font-size: 25px;
-    margin-right: 40px;
-    margin-top: 0;
-    width: 100%;
-    right: 0;
-    left: 0;
+#listNavbar {
+    margin-top: 0px;
+    display: table-cell;
+    margin-left: 0px;
+    left: 0px;
 }
 
+.listNavbarItem {
+    margin-left: 5px;
+}
+
+
 .listNavbarPagesSmallScreen {
-    font-size: 15px;
     margin-right: 20px;
     margin-top: 0;
     width: 100%;
     right: 0;
     left: 20px;
     margin-left: 2%;
-}
-
-ul {
-    text-align: right;
-    margin-left: auto;
-    margin-right: 0;
-    right: 0;
-}
-
-.colorRed {
-    color: #F3525A;
-}
-
-.nameOfThePage {
-    margin-top: 10%;
 }
