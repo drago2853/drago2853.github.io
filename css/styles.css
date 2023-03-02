@@ -109,6 +109,9 @@
 
 .diffNavbarLayout {
   display: list-item;
+  height: fit-content;
+  padding: 0%;
+  padding-top: 5px;
 }
 
 .diffLI {
