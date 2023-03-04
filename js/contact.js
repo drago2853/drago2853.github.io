@@ -9,31 +9,29 @@ form.addEventListener("submit", function(event) {
   const subjectInput = document.getElementById("subject");
   const messageInput = document.getElementById("message");
 
+  const url = "https://formsubmit.co/037ade0e14491554304b5b04aba454c9";
 
-  const data = { 
-    "email": emailInput.value, 
-    "message": messageInput.value,
-    "_subject": subjectInput.value,
-   };
-
-  fetch("https://formsubmit.co/037ade0e14491554304b5b04aba454c9", {
-    method: "POST",
+  const data = {
+    email: emailInput.value, 
+    message: messageInput.value,
+    _subject: subjectInput.value,
+  };
+  
+  fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(data),
     headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(data)
+      'Content-Type': 'application/json'
+    }
   })
   .then(response => {
     if (!response.ok) {
-      throw new Error("Error in sending a email.");
+      throw new Error('Network response was not ok');
     }
-    return response.json();
-  })
-  .then(data => {
-    console.log("Email server response:", data);
+    console.log('Email sent successfully');
   })
   .catch(error => {
-    console.error("Error:", error);
+    console.error('There was a problem sending the email:', error);
   });
 
   form.reset();
