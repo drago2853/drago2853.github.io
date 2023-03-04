@@ -16,7 +16,7 @@ form.addEventListener("submit", function(event) {
     "_subject": subjectInput.value,
    };
 
-  fetch("https://formsubmit.co/dragomazic123@gmail.com", {
+  fetch("https://formsubmit.co/037ade0e14491554304b5b04aba454c9", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
