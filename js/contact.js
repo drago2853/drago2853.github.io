@@ -11,10 +11,9 @@ form.addEventListener("submit", function(event) {
 
 
   const data = { 
-    email: emailInput.value, 
-    message: messageInput.value,
-    _subject: subjectInput.value,
-    
+    "email": emailInput.value, 
+    "message": messageInput.value,
+    "_subject": subjectInput.value,
    };
 
   fetch("https://formsubmit.co/dragomazic123@gmail.com", {
