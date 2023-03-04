@@ -52,19 +52,19 @@
                         <form id="contactForm">
                             <div class="row g-3">
                                 <div class="col-12">
-                                    <input id="name" type="text" name="name" class="form-control border-0 px-4 contactField" placeholder="Ime i prezime" style="height: 55px;">
+                                    <input id="name" type="text" name="name" class="form-control border-0 px-4 contactField" placeholder="Ime i prezime" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input id="phoneNumber" type="text" class="form-control border-0 px-4 contactField" placeholder="Broj mobilnog" style="height: 55px;">
+                                    <input id="phoneNumber" type="text" class="form-control border-0 px-4 contactField" placeholder="Broj mobilnog" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input id="email" type="email" name="email" class="form-control border-0 px-4 contactField" placeholder="Email" style="height: 55px;">
+                                    <input id="email" type="email" name="email" class="form-control border-0 px-4 contactField" placeholder="Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input id="subject" type="text" class="form-control border-0 px-4 contactField" placeholder="Naslov" style="height: 55px;">
+                                    <input id="subject" type="text" class="form-control border-0 px-4 contactField" placeholder="Naslov" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <textarea id="message" class="form-control border-0 px-4 py-3 contactField" name="message" rows="8" placeholder="Poruka"></textarea>
+                                    <textarea id="message" class="form-control border-0 px-4 py-3 contactField" name="message" rows="8" placeholder="Poruka" required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Posalji poruku</button>
@@ -128,7 +128,7 @@
     <script src="js\footer.js"></script>
     <script id="scriptNavbar" currentLocation="contactTab" src="js\navbar.js"></script>
     <script src="js\window-resize.js"></script>
-    <script src="js\contact.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 
 </html>
