@@ -323,13 +323,14 @@ nav{
     margin-top: 0;
 }
 
-#listNavbar, #listNavbarPages {
-    text-align: right;
-    margin-left: auto;
+.listNavbarPages {
+    text-align: center;
+    margin-left: 0;
     margin-right: 0;
     float: right;
     margin-bottom: 10px;
     margin-top: 20px;
+    width: 100%;
 }
 
 #listNavbar {
@@ -341,7 +342,6 @@ nav{
 
 .listNavbarItem {
     margin-left: 5px;
-    font-stretch:expanded;
 }
 
 
@@ -360,11 +360,45 @@ nav{
 }
 
 .contactDetailsSmallScreen {
-    margin-top: 2%;
+    margin-top: 1%;
     padding: 0%;
     margin-bottom: 1%;
 }
 
 .fitImage {
     object-fit: scale-down;
+}
+
+.photo{
+    font-size: 110%;
+    margin-left: 2%;
+}
+
+.photoLarge{
+    margin-left: 5%;
+    width: 100%;
+}
+
+.logoWrapper{
+    min-width: 340px;
+    width: auto;
+}
+
+.logo {
+    margin-left: 1%;
+}
+
+#homeTab, #aboutTab, #galleryTab, #contactTab {
+    min-width: 80px;
+    width: auto;
+    padding-left: 0%;
+}
+
+#pagesList{
+    padding-left: 0%;
+}
+
+#navbarElement{
+    padding-left: 5px;
+    padding-right: 5px;
 }
