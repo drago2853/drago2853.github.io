@@ -2,6 +2,7 @@ const form = document.getElementById("contactForm");
 
 form.addEventListener("submit", function(event) {
   event.preventDefault();
+  event.stopPropagation();
   
   const nameInput = document.getElementById("name");
   const phoneNumberInput = document.getElementById("phoneNumber");
@@ -12,9 +13,10 @@ form.addEventListener("submit", function(event) {
   const url = "https://formsubmit.co/dragomazic123@gmail.com";
 
   const data = {
-    email: emailInput.value, 
-    message: messageInput.value,
-    _subject: subjectInput.value,
+    Email: emailInput.value, 
+    Message: messageInput.value,
+    Name: nameInput.value,
+    Subject: subjectInput.value,
   };
   
   fetch(url, {
