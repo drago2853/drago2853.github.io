@@ -14,7 +14,7 @@ form.addEventListener("submit", function(event) {
 
   const data = {
     Email: emailInput.value, 
-    Message: messageInput.value,
+    Message: messageInput.value + ", Phone number: " + phoneNumberInput.value,
     Name: nameInput.value,
     Subject: subjectInput.value,
   };
@@ -30,7 +30,7 @@ form.addEventListener("submit", function(event) {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-    console.log('Email sent successfully');
+    $( "span.success" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 25000 );
   })
   .catch(error => {
     console.error('There was a problem sending the email:', error);

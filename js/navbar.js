@@ -109,6 +109,9 @@ function resizeNavbar() {
         
         calc = (80 / 100) * (window.innerWidth / 19)
         minWidthNabarList(calc);
+
+        calc = (20 / 100) * (window.innerWidth / 19)
+        fontSizeNabarList(calc)
     }
 }
 

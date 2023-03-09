@@ -109,7 +109,7 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
     }
 }
@@ -220,7 +220,7 @@ h6,
 }
 
 .testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next{
+.testimonial-carousel .owl-nav .owl-next {
     position: relative;
     margin: 0 5px;
     width: 45px;
@@ -267,17 +267,17 @@ h6,
 .content {
     padding: 16px;
 }
-  
+
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-position: fixed;
-top: 0;
-width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-padding-top: 60px;
+.sticky+.content {
+    padding-top: 60px;
 }
 
 #contactData {
@@ -311,14 +311,14 @@ padding-top: 60px;
     right: 0;
 }
 
-nav{
+nav {
     width: 100%;
     position: fixed;
-    top:50px;
-    text-transform:uppercase;
+    top: 50px;
+    text-transform: uppercase;
     background-color: white;
     text-align: top;
-    z-index:9999;
+    z-index: 9999;
     top: 0;
     margin-top: 0;
 }
@@ -356,7 +356,7 @@ nav{
 }
 
 .nameOfThePage {
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .contactDetailsSmallScreen {
@@ -369,17 +369,17 @@ nav{
     object-fit: scale-down;
 }
 
-.photo{
+.photo {
     font-size: 110%;
     margin-left: 2%;
 }
 
-.photoLarge{
+.photoLarge {
     margin-left: 5%;
     width: 100%;
 }
 
-.logoWrapper{
+.logoWrapper {
     min-width: 340px;
     width: auto;
 }
@@ -388,17 +388,61 @@ nav{
     margin-left: 1%;
 }
 
-#homeTab, #aboutTab, #galleryTab, #contactTab {
+#homeTab,
+#aboutTab,
+#galleryTab,
+#contactTab {
     min-width: 80px;
-    width: auto;
+    width: fit-content;
+    padding-left: 0%;
+    white-space: nowrap;
+}
+
+#pagesList {
     padding-left: 0%;
 }
 
-#pagesList{
-    padding-left: 0%;
-}
-
-#navbarElement{
+#navbarElement {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    display: none;
+
+}
+
+@media (min-width:1300px) {
+    .photosOnHomePage {
+        height: 1000px;
+    }
+}
+
+@media (max-width:700px) {
+    .marginTop {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:1000px) and (min-width:700px) {
+    .marginTop {
+        margin-top: 5%;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1300px) {
+    .photosOnHomePage {
+        height: 15%;
+    }
+}
+
+.homeImages {
+    object-fit: fill;
+}
+
+.imageDescriptionHome {
+    margin-bottom: 20%;
 }
