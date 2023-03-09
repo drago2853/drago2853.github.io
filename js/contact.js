@@ -10,7 +10,7 @@ form.addEventListener("submit", function(event) {
   const subjectInput = document.getElementById("subject");
   const messageInput = document.getElementById("message");
 
-  const url = "https://formsubmit.co/ajax/dragomazic123@gmail.com";
+  const url = "https://formsubmit.co/ajax/41f5ff85409c07e0e1595325ca3d87ace9cf2be3f5c910168f1c43cdde0f657b";
 
   const data = {
     Email: emailInput.value, 
