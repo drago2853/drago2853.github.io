@@ -107,13 +107,6 @@
   transform: translate(50px,0);
 }
 
-.diffNavbarLayout {
-  display: list-item;
-  height: fit-content;
-  padding: 0%;
-  padding-top: 5px;
-}
-
 .diffLI {
   width: auto;
 }
