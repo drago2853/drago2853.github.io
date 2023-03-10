@@ -664,7 +664,7 @@ nav {
     }
 }
 
-@media (min-width:50px) and (max-width:870px) {
+@media (min-width:650px) and (max-width:870px) {
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -719,13 +719,166 @@ nav {
     }
 }
 
-@media (min-width:50px) and (max-width:650px) {
+
+@media (min-width:0px) and (max-width:650px) {
+    #homeTab,
+    #aboutTab,
+    #galleryTab,
+    #contactTab {
+        font-size: 16px;
+        min-width: 80px;
+        width: 100%;
+        margin-bottom: 1%;
+    }
+
+    #fName,
+    #mob1,
+    #mob2 {
+        margin-top: 1%;
+        padding: 0%;
+        margin-bottom: 1%;
+        font-size: 16px;
+        margin-left: 2%;
+    }
+
+    #contantDetails {
+        margin-top: 1%;
+        display: table-row-group;
+        padding: 0%;
+        margin-bottom: 1%;
+    }
 
     #navbarElement {
-        height: 125px;
+        font-size: 10px;
+        display: list-item;
+        padding: 0%;
+        padding-top: 5px;
+    }
+
+    #logoWrapper {
+        font-size: 16px;
+        min-width: 80px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #pagesList {
+        margin-top: 0;
+        width: 100%;
+        margin-bottom: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .nameOfThePage {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width:600px) and (max-width:650px) {
+
+    #navbarElement {
+        height: 160px;
     }
 
     .nameOfThePage {
-        margin-top: 120px;
+        margin-top: 150px;
+    }
+}
+
+@media (min-width:550px) and (max-width:600px) {
+
+    #navbarElement {
+        height: 150px;
+    }
+
+    .nameOfThePage {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width:450px) and (max-width:550px) {
+
+    #navbarElement {
+        height: 140px;
+    }
+
+    .nameOfThePage {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width:400px) and (max-width:450px) {
+
+    #navbarElement {
+        height: 135px;
+    }
+
+    .nameOfThePage {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width:315px) and (max-width:400px) {
+
+    #navbarElement {
+        height: 120px;
+    }
+
+    .nameOfThePage {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width:100px) and (max-width:315px) {
+
+    #navbarElement {
+        height: 135px;
+    }
+
+    .nameOfThePage {
+        margin-top: 190px;
+    }
+}
+
+@media (min-width:50px) and (max-width:400px) {
+
+    #homeTab,
+    #aboutTab,
+    #galleryTab,
+    #contactTab {
+        font-size: 14px;
+        min-width: 40px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #fName,
+    #mob1,
+    #mob2 {
+        margin-top: 1%;
+        padding: 0%;
+        margin-bottom: 1%;
+        font-size: 14px;
+        margin-left: 2%;
+    }
+
+    #logoWrapper {
+        font-size: 14px;
+        min-width: 80px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

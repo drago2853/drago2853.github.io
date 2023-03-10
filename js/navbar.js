@@ -23,5 +23,5 @@ document.getElementById('navbarTemplateId').innerHTML = navbarTemplate;
 currentLocation = document.getElementById("scriptNavbar").getAttribute("currentLocation");
 
 if (currentLocation) {
-    document.getElementById(currentLocation).className = "colorRed";
+    document.getElementById(currentLocation).style.color = "rgb(255, 123, 123)";
 }

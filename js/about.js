@@ -4,8 +4,8 @@ let aboutHtmlText = `
     <div class="row g-0">
         <div class="col-lg-6 py-6 px-5">
             <h1 class="display-5 mb-4">Dobrodosli u <span class="text-primary">Transport Evropom</span></h1>
-            <h4 class="text-primary mb-4">Neki dugacak title Neki dugacak title Neki dugacak title</h4>
-            <p class="mb-4">Neki dugacak opis Neki dugacak opis Neki dugacak opis Neki dugacak opis Neki dugacak opis Neki dugacak opis Neki dugacak opis Neki dugacak opis Neki dugacak opis</p>
+            <h4 class="text-primary mb-4">Brz, pouzdan i ekonomičan transport robe i opreme u Evropi</h4>
+            <p class="mb-4">Mi smo firma za transport koja pruža širok spektar usluga prevoza robe i opreme na teritoriji Evrope. Naša vozila su specijalno prilagođena za prevoz velikih tereta poput vozila i radnih mašina. Naš tim vozača ima dugogodišnje iskustvo u prevozu, što garantuje siguran i efikasan transport vaše robe. Naša misija je da pružimo brz, pouzdan i ekonomičan prevoz za bilo koju vrstu robe i opreme uz visok nivo profesionalnosti.</p>
         </div>
         
         <div class="col-lg-6" style="min-height: 500px;">
