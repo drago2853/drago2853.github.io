@@ -415,6 +415,7 @@ nav {
 .aboutUsImage {
     object-fit: scale-down;
     width: 100%;
+    height: 600px;
 }
 
 .fitImage {
@@ -510,6 +511,7 @@ nav {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    height: fit-content;
 }
 
 .reset-this-root {
@@ -541,6 +543,7 @@ nav {
 
 .smallMarginTopAboutUsTitle {
     padding-top: 2%;
+    width: 100%;
 }
 
 @media (min-width:1300px) {
@@ -1153,6 +1156,15 @@ nav {
         display: table-cell;
         margin-left: 0px;
         left: 0px;
+        margin: 0%;
+    }
+
+    .contactDivListRoot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .smallMarginTop {
