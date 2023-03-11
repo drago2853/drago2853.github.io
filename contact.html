@@ -40,14 +40,17 @@
     </div>
     
     <!-- Contact Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
+    <div class="container-fluid py-5 wow fadeInUp contactDivList" data-wow-delay="0.1s">
+        <div class="container contactDivList">
             <span class="alert-box success">Email je uspesno poslat. Odgovoricemo Vam u najkracem roku. Hvala :)</span>
-            <div class="row g-5">
+            <div class="row g-5 contactDivList">
                 <div class="col-lg-7 wow slideInUp" data-wow-delay="0.3s">
                     <div class="bg-light rounded p-5" id="firstDiv">
                         <form id="contactForm">
                             <div class="row g-3">
+                                <div class="col-12">
+                                    <h5 class="mb-1 contactInfoTitle">Posaljite nam email:</h5>
+                                </div>
                                 <div class="col-12">
                                     <input id="name" type="text" name="name" class="form-control border-0 px-4 contactField" placeholder="Ime i prezime" style="height: 55px;" required>
                                 </div>
@@ -61,7 +64,7 @@
                                     <input id="subject" type="text" class="form-control border-0 px-4 contactField" placeholder="Naslov" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <textarea id="message" class="form-control border-0 px-4 py-3 contactField" name="message" rows="8" placeholder="Poruka" required></textarea>
+                                    <textarea id="message" class="form-control border-0 px-4 py-3 contactField" name="message" rows="3" placeholder="Poruka" required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Posalji poruku</button>
@@ -75,29 +78,29 @@
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-1">Nasa lokacija:</h5>
-                                <span>Vrbas, Srbija</span>
+                                <h5 class="mb-1 contactInfoTitle">Nasa lokacija:</h5>
+                                <span class="contactInfoDesc">Vrbas, Srbija</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-1">Email:</h5>
-                                <span>info@example.com</span>
+                                <h5 class="mb-1 contactInfoTitle">Email:</h5>
+                                <span class="contactInfoDesc">info@example.com</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-4">
                             <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-1">Mob1:</h5>
-                                <span>+012 345 6789</span>
+                                <h5 class="mb-1 contactInfoTitle">Mob1:</h5>
+                                <span class="contactInfoDesc">+012 345 6789</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-4">
                             <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-1">Mob2 Viber:</h5>
-                                <span>+012 345 6789</span>
+                                <h5 class="mb-1 contactInfoTitle">Mob2 Viber:</h5>
+                                <span class="contactInfoDesc">+012 345 6789</span>
                             </div>
                         </div>
                     </div>

@@ -353,6 +353,21 @@ nav {
     font-family: 'Verdana', sans-serif;
 }
 
+.aboutUsTextDesc {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2rem;
+}
+
+.contactInfoTitle {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.contactInfoDesc {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
 .listNavbarPages {
     text-align: center;
     margin-left: 0;
@@ -438,6 +453,14 @@ nav {
     border-color: #d6e9c6;
     display: none;
 
+}
+
+.reset-this-root {
+    all: unset;
+}
+
+.reset-this-root:hover {
+    all: unset;
 }
 
 @media (min-width:1300px) {
@@ -839,7 +862,7 @@ nav {
     }
 
     .nameOfThePage {
-        margin-top: 150px;
+        margin-top: 140px;
     }
 }
 
@@ -850,7 +873,7 @@ nav {
     }
 
     .nameOfThePage {
-        margin-top: 150px;
+        margin-top: 130px;
     }
 }
 
@@ -861,7 +884,7 @@ nav {
     }
 
     .nameOfThePage {
-        margin-top: 150px;
+        margin-top: 120px;
     }
 }
 
@@ -872,7 +895,7 @@ nav {
     }
 
     .nameOfThePage {
-        margin-top: 190px;
+        margin-top: 130px;
     }
 }
 
@@ -907,5 +930,15 @@ nav {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media (min-width:100px) and (max-width:1000px) {
+
+    .contactDivList {
+        margin-top: 0px;
+        display: table-cell;
+        margin-left: 0px;
+        left: 0px;
     }
 }
