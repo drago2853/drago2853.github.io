@@ -524,6 +524,9 @@ nav {
     padding-top: 10px;
 }
 
+.smallMarginTopAboutUsTitle {
+    padding-top: 2%;
+}
 @media (min-width:1300px) {
     .photosOnHomePage {
         height: 1000px;
