@@ -9,7 +9,6 @@ $(window.window.length).resize(function() {
 
 
 function changeLargeImages() {
-    console.log(window.innerWidth);
     if(window.innerWidth < 1000) {
         document.getElementById("imagePresentation1").src = "img/32.jpg";
         document.getElementById("imagePresentation2").src = "img/13.jpg";
