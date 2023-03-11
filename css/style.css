@@ -592,7 +592,7 @@ nav {
     }
 }
 
-@media (min-width:870px) and (max-width:1000px) {
+@media (min-width:970px) and (max-width:1000px) {
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -720,7 +720,7 @@ nav {
     }
 }
 
-@media (min-width:870px) and (max-width:1800px) {
+@media (min-width:970px) and (max-width:1800px) {
 
     #homeTab,
     #aboutTab,
@@ -809,7 +809,7 @@ nav {
     }
 }
 
-@media (min-width:650px) and (max-width:870px) {
+@media (min-width:750px) and (max-width:970px) {
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -881,7 +881,7 @@ nav {
 }
 
 
-@media (min-width:0px) and (max-width:650px) {
+@media (min-width:0px) and (max-width:750px) {
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -960,7 +960,7 @@ nav {
     }
 }
 
-@media (min-width:600px) and (max-width:650px) {
+@media (min-width:600px) and (max-width:750px) {
 
     #navbarElement {
         height: 160px;
