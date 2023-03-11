@@ -197,6 +197,7 @@ h6,
 .imageDescriptionHome2 {
     margin-bottom: -4%;
 }
+
 .team-item .team-text {
     left: -100%;
     transition: .5s;
@@ -462,6 +463,7 @@ nav {
 .homeImages {
     object-fit: fill;
 }
+
 .photoLarge {
     margin-left: 5%;
     width: 100%;
@@ -504,6 +506,10 @@ nav {
 
 }
 
+.aboutUsImageDiv {
+    width: fit-content;
+}
+
 .reset-this-root {
     all: unset;
 }
@@ -523,7 +529,7 @@ nav {
 
 .serviceItemBlock:hover {
     transform: translate(5px, 10px);
-  }
+}
 
 
 .smallMarginTopWhyUs {
@@ -534,10 +540,12 @@ nav {
 .smallMarginTopAboutUsTitle {
     padding-top: 2%;
 }
+
 @media (min-width:1300px) {
     .photosOnHomePage {
         height: 100%;
     }
+
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -568,6 +576,7 @@ nav {
     .photosOnHomePage {
         height: 15%;
     }
+
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -599,6 +608,7 @@ nav {
 }
 
 @media (min-width:970px) and (max-width:1000px) {
+
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -678,10 +688,12 @@ nav {
     .marginTop {
         margin-top: 50px;
     }
+
     .imageDescriptionHome {
         margin-bottom: 0%;
         font-size: 10px;
     }
+
     .imageDescriptionHome2 {
         /* margin-bottom: -10%; */
         font-size: 10px;
@@ -692,9 +704,11 @@ nav {
     .marginTop {
         margin-top: 5%;
     }
+
     .imageDescriptionHome {
         margin-bottom: 7%;
     }
+
     .imageDescriptionHome2 {
         margin-bottom: 7%;
     }
@@ -704,9 +718,11 @@ nav {
     .marginTop {
         margin-top: 4%;
     }
+
     .imageDescriptionHome {
         margin-bottom: 10%;
     }
+
     .imageDescriptionHome2 {
         margin-bottom: 10%;
     }
@@ -792,7 +808,7 @@ nav {
         padding-right: 10%;
         padding-left: 10%;
     }
-    
+
     .fitDivImageHeavyService {
         min-height: 130px;
         max-height: 230px;
@@ -808,6 +824,7 @@ nav {
         margin-top: 130px;
     }
 }
+
 @media (min-width:1800px) {
     .nameOfThePage {
         height: 130px;
@@ -816,6 +833,7 @@ nav {
 }
 
 @media (min-width:750px) and (max-width:970px) {
+
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -864,7 +882,7 @@ nav {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .nameOfThePage {
         margin-top: 100px;
     }
@@ -876,7 +894,7 @@ nav {
         padding-right: 10%;
         padding-left: 10%;
     }
-    
+
     .fitDivImageHeavyService {
         min-height: 120px;
         max-height: 230px;
@@ -888,6 +906,7 @@ nav {
 
 
 @media (min-width:0px) and (max-width:750px) {
+
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -944,7 +963,7 @@ nav {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .nameOfThePage {
         margin-top: 100px;
     }
@@ -956,7 +975,7 @@ nav {
         padding-right: 10%;
         padding-left: 10%;
     }
-    
+
     .fitDivImageHeavyService {
         min-height: 110px;
         max-height: 230px;
@@ -1151,7 +1170,7 @@ nav {
         max-width: 230px;
         width: 80%;
     }
-    
+
     .fitDivImageService {
         max-height: 160px;
         max-width: 230px;

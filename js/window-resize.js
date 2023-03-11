@@ -1,15 +1,15 @@
 
-$(window).resize(function() {
+$(window).resize(function () {
     changeLargeImages();
 });
 
-$(window.window.length).resize(function() {
+$(window.window.length).resize(function () {
     changeLargeImages();
 });
 
 
 function changeLargeImages() {
-    if(window.innerWidth < 1000) {
+    if (window.innerWidth < 1000) {
         document.getElementById("imagePresentation1").src = "img/medium/32.avif";
         document.getElementById("imagePresentation2").src = "img/medium/13.avif";
     } else {
