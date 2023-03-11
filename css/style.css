@@ -941,4 +941,13 @@ nav {
         margin-left: 0px;
         left: 0px;
     }
+
+    .smallMarginTop {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+    #secondDiv {
+        margin-top: 35px;
+    }
 }
