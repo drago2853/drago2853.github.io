@@ -508,6 +508,8 @@ nav {
 
 .aboutUsImageDiv {
     width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .reset-this-root {
