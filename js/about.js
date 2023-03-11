@@ -8,10 +8,8 @@ let aboutHtmlText = `
             <p class="mb-4 aboutUsTextDesc">Mi smo firma za transport koja pruža širok spektar usluga prevoza robe i opreme na teritoriji Evrope. Naša vozila su specijalno prilagođena za prevoz velikih tereta poput vozila i radnih mašina. Naš tim vozača ima dugogodišnje iskustvo u prevozu, što garantuje siguran i efikasan transport vaše robe. Naša misija je da pružimo brz, pouzdan i ekonomičan prevoz za bilo koju vrstu robe i opreme uz visok nivo profesionalnosti.</p>
         </div>
         
-        <div class="col-lg-6 smallMarginTopAboutUsTitle" style="min-height: 500px;">
-            <div class="position-relative h-100">
-                <img class="position-absolute w-100 h-100 fitImage" src="img/1.avif">
-            </div>
+        <div class="col-lg-6 smallMarginTopAboutUsTitle aboutUsImageDiv" style="min-height: 500px;">
+            <img class="aboutUsImage" src="img/1.avif">
         </div>
     </div>
 </div>

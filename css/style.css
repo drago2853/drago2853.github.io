@@ -402,12 +402,16 @@ nav {
 }
 
 .testimonialDivCenter {
-    display: flex;
+    /* display: block; */
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 90px;
+    margin: auto;
+    height: fit-content;
+}
+
+.aboutUsImage {
+    object-fit: scale-down;
+    width: 100%;
 }
 
 .fitImage {
@@ -530,7 +534,7 @@ nav {
 }
 @media (min-width:1300px) {
     .photosOnHomePage {
-        height: 1000px;
+        height: 100%;
     }
     #homeTab,
     #aboutTab,
@@ -1151,5 +1155,4 @@ nav {
         max-width: 230px;
         width: 110%;
     }
-    
 }
