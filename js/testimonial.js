@@ -1,7 +1,7 @@
 let testimonial = `
 <!-- Testimonial Start -->
 <div class="container-fluid bg-secondary p-0">
-    <div class="row g-0">
+    <div class="row g-0 testimonialDivCenter">
         <div class="col-lg-6 py-6 px-5">
             <h1 class="display-5 mb-4">Sta nasi klijenti kazu!!!</h1>
             <div class="owl-carousel testimonial-carousel">

@@ -400,6 +400,14 @@ nav {
     margin-right: auto;
 }
 
+.testimonialDivCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .fitImage {
     object-fit: scale-down;
 }
@@ -462,6 +470,19 @@ nav {
 .reset-this-root:hover {
     all: unset;
 }
+
+.serviceItemBlock {
+    background-color: #F6F6F6;
+    border: 5px solid #8b8b8b;
+    box-shadow: 0 0 30px 5px #89aeff59;
+    border-radius: 10px;
+    margin-top: 13px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.serviceItemBlock:hover {
+    transform: translate(5px, 10px);
+  }
 
 @media (min-width:1300px) {
     .photosOnHomePage {

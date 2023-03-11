@@ -20,7 +20,7 @@ let footer = `
     </div>
 </div>
 <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-    <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">transport-evropa</a>. All Rights Reserved. Designed by <a class="text-secondary border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
+    <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">transport-evropa</a>. All Rights Reserved. Designed by <span class="text-secondary border-bottom">TransportEvropa</span></p>
 </div>
 <!-- Footer End -->
 `;
