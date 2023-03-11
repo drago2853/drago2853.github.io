@@ -12,7 +12,7 @@ let aboutHtmlText = `
                 i opreme uz visok nivo profesionalnosti.</p>
         </div>
 
-        <div class="col-lg-6 smallMarginTopAboutUsTitle aboutUsImageDiv">
+        <div class="col-lg-6 smallMarginTopAboutUsTitle aboutUsImageDiv" style="width: fit-content;">
             <img class="aboutUsImage" src="img/1.avif">
         </div>
     </div>
