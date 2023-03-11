@@ -160,6 +160,7 @@ h6,
 
 .imageDescriptionHomeFontTitle {
     font-size: 80px;
+    line-height: 80px;
 }
 
 .imageDescriptionHomeFont {
@@ -981,10 +982,23 @@ nav {
     }
 }
 
+@media (min-width:580px) and (max-width:1100px) {
+
+    .imageDescriptionHomeFontTitle {
+        /* font-size: 23px; */
+        line-height: 30px;
+    }
+
+    /* .imageDescriptionHomeFont {
+        font-size: 17px;
+    } */
+}
+
 @media (min-width:550px) and (max-width:580px) {
 
     .imageDescriptionHomeFontTitle {
         font-size: 23px;
+        line-height: 23px;
     }
 
     .imageDescriptionHomeFont {
@@ -1012,6 +1026,7 @@ nav {
 
     .imageDescriptionHomeFontTitle {
         font-size: 16px;
+        line-height: 16px;
     }
 
     .imageDescriptionHomeFont {
@@ -1031,6 +1046,7 @@ nav {
 
     .imageDescriptionHomeFontTitle {
         font-size: 16px;
+        line-height: 16px;
     }
 
     .imageDescriptionHomeFont {
@@ -1095,6 +1111,7 @@ nav {
 
     .imageDescriptionHomeFontTitle {
         font-size: 16px;
+        line-height: 16px;
     }
 
     .imageDescriptionHomeFont {
