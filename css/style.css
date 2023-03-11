@@ -34,7 +34,6 @@ h6,
 
 .py-6 {
     padding-top: 90px;
-    padding-bottom: 90px;
 }
 
 .btn {
@@ -408,6 +407,7 @@ nav {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 90px;
 }
 
 .fitImage {
