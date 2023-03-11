@@ -359,7 +359,7 @@ nav {
 
 .aboutUsTextDesc {
     font-family: 'Helvetica', sans-serif;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .contactInfoTitle {
@@ -415,7 +415,6 @@ nav {
 .aboutUsImage {
     object-fit: scale-down;
     width: 100%;
-    height: 600px;
 }
 
 .fitImage {
@@ -509,8 +508,6 @@ nav {
 
 .aboutUsImageDiv {
     width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
     height: fit-content;
 }
 
@@ -543,7 +540,34 @@ nav {
 
 .smallMarginTopAboutUsTitle {
     padding-top: 2%;
-    width: 100%;
+}
+
+@media (max-width:1530px) {
+    .smallMarginTopAboutUsTitle {
+        padding-top: 2%;
+        /* width: 100%; */
+    }
+    .aboutUsImageDiv, #aboutUsText {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+    }
+    
+    .aboutUsImage {
+        object-fit: scale-down;
+        width: 100%;
+        height: 600px;
+    }
+    .aboutUsTextDesc {
+        font-size: 2rem;
+    }
+    .aboutUsTextDescTitle {
+        font-size: 2.5rem;
+    }
+    .aboutUsTextTitle {
+        font-size: 3rem;
+    }
 }
 
 @media (min-width:1300px) {
