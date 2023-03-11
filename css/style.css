@@ -412,6 +412,37 @@ nav {
     object-fit: scale-down;
 }
 
+.fitImageService {
+    max-height: 130px;
+    max-width: 230px;
+    width: 80%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.fitDivImageService {
+    max-height: 160px;
+    max-width: 230px;
+    width: 130%;
+    height: 100%;
+}
+
+.fitImageHeavyService {
+    width: 90%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.fitDivImageHeavyService {
+    min-height: 60px;
+    max-height: 230px;
+    max-width: 360px;
+    width: 100%;
+    height: 100%;
+}
+
 .photo {
     font-size: 110%;
     margin-left: 2%;
@@ -720,6 +751,21 @@ nav {
         margin-right: auto;
     }
 
+    .fitImageHeavyService {
+        width: 110%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    .fitDivImageHeavyService {
+        min-height: 130px;
+        max-height: 230px;
+        max-width: 360px;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (min-width:1300px) and (max-width:1800px) {
