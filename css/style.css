@@ -1052,3 +1052,19 @@ nav {
         margin-top: 35px;
     }
 }
+
+@media (min-width:100px) and (max-width:440px) {
+
+    .fitImageService {
+        max-height: 130px;
+        max-width: 230px;
+        width: 80%;
+    }
+    
+    .fitDivImageService {
+        max-height: 160px;
+        max-width: 230px;
+        width: 110%;
+    }
+    
+}
