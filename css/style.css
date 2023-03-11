@@ -123,17 +123,6 @@ h6,
     z-index: 1;
 }
 
-@media (max-width: 576px) {
-    .carousel-caption h5 {
-        font-size: 14px;
-        font-weight: 500 !important;
-    }
-
-    .carousel-caption h1 {
-        font-size: 30px;
-        font-weight: 600 !important;
-    }
-}
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -169,6 +158,14 @@ h6,
     margin-top: 5px;
 }
 
+.imageDescriptionHomeFontTitle {
+    font-size: 80px;
+}
+
+.imageDescriptionHomeFont {
+    font-size: 30px;
+}
+
 /* .service-item:hover::after {
     border: 5px solid #2b4d8bab;
     border-radius: 10px;
@@ -194,7 +191,11 @@ h6,
 }
 
 .imageDescriptionHome {
-    margin-bottom: 15%;
+    margin-bottom: 0%;
+}
+
+.imageDescriptionHome2 {
+    margin-bottom: -4%;
 }
 .team-item .team-text {
     left: -100%;
@@ -655,7 +656,7 @@ nav {
 
 @media (min-width: 870px) and (max-width:1100px) {
     .carousel-caption h5 {
-        font-size: 17px;
+        font-size: 25px;
     }
 
     .carousel-caption h1 {
@@ -669,6 +670,11 @@ nav {
     }
     .imageDescriptionHome {
         margin-bottom: 0%;
+        font-size: 10px;
+    }
+    .imageDescriptionHome2 {
+        /* margin-bottom: -10%; */
+        font-size: 10px;
     }
 }
 
@@ -677,6 +683,9 @@ nav {
         margin-top: 5%;
     }
     .imageDescriptionHome {
+        margin-bottom: 7%;
+    }
+    .imageDescriptionHome2 {
         margin-bottom: 7%;
     }
 }
@@ -688,6 +697,9 @@ nav {
     .imageDescriptionHome {
         margin-bottom: 10%;
     }
+    .imageDescriptionHome2 {
+        margin-bottom: 10%;
+    }
 }
 
 @media (min-width:1500px) and (max-width:1800px) {
@@ -696,6 +708,10 @@ nav {
     }
 
     .imageDescriptionHome {
+        margin-bottom: 15%;
+    }
+
+    .imageDescriptionHome2 {
         margin-bottom: 15%;
     }
 }
@@ -962,6 +978,25 @@ nav {
     }
 }
 
+@media (min-width:550px) and (max-width:580px) {
+
+    .imageDescriptionHomeFontTitle {
+        font-size: 23px;
+    }
+
+    .imageDescriptionHomeFont {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:580px) and (max-width:1100px) {
+
+    .imageDescriptionHomeFont {
+        font-size: 17px;
+    }
+}
+
+
 @media (min-width:450px) and (max-width:550px) {
 
     #navbarElement {
@@ -970,6 +1005,14 @@ nav {
 
     .nameOfThePage {
         margin-top: 140px;
+    }
+
+    .imageDescriptionHomeFontTitle {
+        font-size: 16px;
+    }
+
+    .imageDescriptionHomeFont {
+        font-size: 10px;
     }
 }
 
@@ -981,6 +1024,14 @@ nav {
 
     .nameOfThePage {
         margin-top: 130px;
+    }
+
+    .imageDescriptionHomeFontTitle {
+        font-size: 16px;
+    }
+
+    .imageDescriptionHomeFont {
+        font-size: 10px;
     }
 }
 
@@ -1037,6 +1088,14 @@ nav {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .imageDescriptionHomeFontTitle {
+        font-size: 16px;
+    }
+
+    .imageDescriptionHomeFont {
+        font-size: 10px;
     }
 }
 
