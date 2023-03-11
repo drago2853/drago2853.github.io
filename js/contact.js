@@ -14,9 +14,10 @@ form.addEventListener("submit", function(event) {
 
   const data = {
     Email: emailInput.value, 
-    Message: messageInput.value + ", Phone number: " + phoneNumberInput.value,
+    Message: messageInput.value,
     Name: nameInput.value,
     Subject: subjectInput.value,
+    PhoneNumber: phoneNumberInput.value
   };
   
   fetch(url, {
