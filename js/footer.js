@@ -18,9 +18,9 @@ let footer = `
         <div class="col-lg-3 col-md-6">
             <h3 class="text-white mb-4">Kontakt:</h3>
             <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Vrbas, Srbija</p>
-            <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-            <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+381 345 67890</p>
-            <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>Viber: +381 345 67890</p>
+            <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i><a href="mailto:danilo.mazic12@gmail.com">danilo.mazic12@gmail.com</a></p>
+            <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i><a href="tel:+381 6286 07021">+381 6286 07021</a></p>
+            <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i><a href="tel:+49 170436 2889">Viber/WA: +49 170436 2889</a></p>
         </div>
     </div>
 </div>
