@@ -490,6 +490,7 @@ nav {
 
 #pagesList {
     padding-left: 0%;
+    margin-bottom: 0.3%;
 }
 
 #navbarElement {
@@ -588,6 +589,7 @@ nav {
     #mob2 {
         font-size: 20px;
         margin-left: 20px;
+        margin-bottom: 0px;
     }
 
     #navbarElement {
@@ -598,6 +600,10 @@ nav {
         font-size: 23px;
         min-width: 500px;
         white-space: nowrap;
+    }
+
+    .paddingChange {
+        padding: 10px;
     }
 }
 
@@ -771,6 +777,19 @@ nav {
     }
 }
 
+@media (min-width:1300px) and (max-width:1800px) {
+    #navbarElement {
+        height: 145px;
+    }
+}
+
+@media (min-width:970px) and (max-width:1300px) {
+    #navbarElement {
+        height: 135px;
+    }
+}
+
+
 @media (min-width:970px) and (max-width:1800px) {
 
     #homeTab,
@@ -809,7 +828,6 @@ nav {
         display: list-item;
         padding: 0%;
         padding-top: 15px;
-        height: 135px;
     }
 
     #logoWrapper {
@@ -861,7 +879,13 @@ nav {
     }
 }
 
-@media (min-width:750px) and (max-width:970px) {
+@media (min-width:750px) and (max-width:990px) {
+    #navbarElement {
+        height: 115px;
+    }
+}
+
+@media (min-width:750px) and (max-width:990px) {
 
     #homeTab,
     #aboutTab,
@@ -1014,10 +1038,10 @@ nav {
     }
 }
 
-@media (min-width:600px) and (max-width:750px) {
+@media (min-width:700px) and (max-width:750px) {
 
     #navbarElement {
-        height: 160px;
+        height: 170px;
     }
 
     .nameOfThePage {
@@ -1025,10 +1049,26 @@ nav {
     }
 }
 
+@media (min-width:650px) and (max-width:700px) {
+
+    #navbarElement {
+        height: 165px;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:650px) {
+
+    #navbarElement {
+        height: 160px;
+    }
+
+}
+
 @media (min-width:550px) and (max-width:600px) {
 
     #navbarElement {
-        height: 150px;
+        height: 155px;
     }
 
     .nameOfThePage {
@@ -1046,6 +1086,10 @@ nav {
     /* .imageDescriptionHomeFont {
         font-size: 17px;
     } */
+    
+    .paddingChange {
+        padding: 5px;
+    }
 }
 
 @media (min-width:550px) and (max-width:580px) {
@@ -1057,6 +1101,10 @@ nav {
 
     .imageDescriptionHomeFont {
         font-size: 17px;
+    }
+
+    .paddingChange {
+        padding: 3px;
     }
 }
 
@@ -1071,7 +1119,7 @@ nav {
 @media (min-width:450px) and (max-width:550px) {
 
     #navbarElement {
-        height: 140px;
+        height: 145px;
     }
 
     .nameOfThePage {
@@ -1086,12 +1134,16 @@ nav {
     .imageDescriptionHomeFont {
         font-size: 10px;
     }
+
+    .paddingChange {
+        padding: 3px;
+    }
 }
 
 @media (min-width:400px) and (max-width:450px) {
 
     #navbarElement {
-        height: 135px;
+        height: 140px;
     }
 
     .nameOfThePage {
@@ -1106,12 +1158,16 @@ nav {
     .imageDescriptionHomeFont {
         font-size: 10px;
     }
+
+    .paddingChange {
+        padding: 3px;
+    }
 }
 
 @media (min-width:315px) and (max-width:400px) {
 
     #navbarElement {
-        height: 120px;
+        height: 135px;
     }
 
     .nameOfThePage {
@@ -1122,7 +1178,7 @@ nav {
 @media (min-width:100px) and (max-width:315px) {
 
     #navbarElement {
-        height: 135px;
+        height: 140px;
     }
 
     .nameOfThePage {
@@ -1136,10 +1192,14 @@ nav {
     #aboutTab,
     #galleryTab,
     #contactTab {
-        font-size: 14px;
+        font-size: 19px;
         min-width: 40px;
         width: 100%;
         margin-bottom: 5px;
+    }
+
+    .paddingChange {
+        padding: 3px;
     }
 
     #fName,
@@ -1213,5 +1273,66 @@ nav {
         max-height: 160px;
         max-width: 230px;
         width: 110%;
+    }
+}
+
+@media (min-width:0px) and (max-width:368px) {
+
+    #navbarElement {
+        height: 160px;
+    }
+    
+    #homeTab,
+    #aboutTab,
+    #galleryTab,
+    #contactTab {
+        font-size: 19px;
+        min-width: 40%;
+        width: 100%;
+        margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #pagesListChild {
+        margin-top: 0;
+        margin-bottom: 5px;
+
+        display: table-column;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0%;
+    }
+
+    .paddingChange {
+        padding: 0%;
+    }
+}
+
+@media (min-width:100px) and (max-width:320px) {
+
+    #navbarElement {
+        height: 170px;
+    }
+}
+
+@media (min-width:0px) and (max-width:235px) {
+
+    #navbarElement {
+        height: 190px;
+    }
+}
+@media (min-width:0px) and (max-width:235px) {
+
+    #navbarElement {
+        height: 190px;
+    }
+}
+@media (min-width:0px) and (max-width:215px) {
+
+    #navbarElement {
+        height: 200px;
     }
 }
