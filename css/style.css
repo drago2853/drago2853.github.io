@@ -630,7 +630,7 @@ nav {
     #aboutTab,
     #galleryTab,
     #contactTab {
-        font-size: 15px;
+        font-size: 18px;
         min-width: 70px;
     }
 
@@ -961,7 +961,7 @@ nav {
 
 @media (min-width:860px) and (max-width:1100px) {
     #navbarElement {
-        height: 135px;
+        height: 145px;
     }
 }
 
@@ -971,7 +971,7 @@ nav {
     #aboutTab,
     #galleryTab,
     #contactTab {
-        font-size: 25px;
+        font-size: 30px;
         min-width: 80px;
         width: 100%;
     }
@@ -1107,7 +1107,7 @@ nav {
     #aboutTab,
     #galleryTab,
     #contactTab {
-        font-size: 21px;
+        font-size: 30px;
         min-width: 80px;
         width: 100%;
     }
@@ -1124,7 +1124,7 @@ nav {
     #aboutTab,
     #galleryTab,
     #contactTab {
-        font-size: 20px;
+        font-size: 22px;
         min-width: 80px;
         width: 100%;
         margin-bottom: 1%;
