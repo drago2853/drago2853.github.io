@@ -331,22 +331,24 @@ nav {
 
 .textDescService {
     font-family: 'Bahnschrift SemiBold', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .textTitleService {
     font-family: 'Malgun Gothic', sans-serif;
     margin-bottom: 20px;
+    font-size: 2.5rem;
 }
 
 .textTitleWhyUs {
     font-family: 'Malgun Gothic', sans-serif;
     margin-bottom: 20px;
+    font-size: 2.5rem;
 }
 
 .textDescWhyUs {
     font-family: 'Bahnschrift SemiBold', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .textRootTitleService {
@@ -359,7 +361,7 @@ nav {
 
 .aboutUsTextDesc {
     font-family: 'Helvetica', sans-serif;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .contactInfoTitle {
@@ -556,6 +558,10 @@ nav {
     padding-top: 2%;
 }
 
+.aboutUsTextDescTitle {
+    font-size: 2.5rem;
+}
+
 @media (max-width:1530px) {
     .smallMarginTopAboutUsTitle {
         padding-top: 2%;
@@ -716,21 +722,21 @@ nav {
 
 @media (min-width: 576px) and (max-width:870px) {
     .carousel-caption h5 {
-        font-size: 14px;
+        font-size: 24px;
     }
 
     .carousel-caption h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
 @media (min-width: 870px) and (max-width:1100px) {
     .carousel-caption h5 {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     .carousel-caption h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
 }
 
@@ -1304,7 +1310,7 @@ nav {
     }
 
     #navbarElement {
-        height: 250px;
+        height: 280px;
     }
     
     #pagesListChild {
@@ -1582,11 +1588,15 @@ nav {
     }
 
     #navbarElement{
-        height: 210px;
+        height: 245px;
     }
 
     .nameOfThePage {
         margin-top: 200px;
+    }
+
+    .marginTop {
+        margin-top: 120px;
     }
 }
 
@@ -1614,11 +1624,15 @@ nav {
     }
 
     #navbarElement{
-        height: 170px;
+        height: 200px;
     }
 
     .nameOfThePage {
         margin-top: 170px;
+    }
+
+    .marginTop {
+        margin-top: 100px;
     }
 }
 
@@ -1646,18 +1660,26 @@ nav {
     }
 
     #navbarElement{
-        height: 155px;
+        height: 185px;
     }
 
     .nameOfThePage {
         margin-top: 155px;
+    }
+
+    .marginTop {
+        margin-top: 90px;
     }
 }
 
 @media (min-width:100px) and (max-width:320px) {
 
     #navbarElement {
-        height: 150px;
+        height: 185px;
+    }
+
+    .marginTop {
+        margin-top: 90px;
     }
 }
 
