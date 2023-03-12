@@ -6,13 +6,13 @@ $(window).resize(function () {
 
 function changeLargeImages() {
     if (window.innerWidth < 1000) {
-        document.getElementById("imagePresentation1").src = "img/medium/36.avif";
-        document.getElementById("imagePresentation2").src = "img/medium/13.avif";
-        document.getElementById("imagePresentation3").src = "img/medium/28.avif";
+        document.getElementById("imagePresentation1").src = "img/medium/36.jpg";
+        document.getElementById("imagePresentation2").src = "img/medium/13.jpg";
+        document.getElementById("imagePresentation3").src = "img/medium/28.jpg";
     } else {
-        document.getElementById("imagePresentation1").src = "img/large/36.avif";
-        document.getElementById("imagePresentation2").src = "img/large/13.avif";
-        document.getElementById("imagePresentation3").src = "img/medium/28.avif";
+        document.getElementById("imagePresentation1").src = "img/large/36.jpg";
+        document.getElementById("imagePresentation2").src = "img/large/13.jpg";
+        document.getElementById("imagePresentation3").src = "img/medium/28.jpg";
     }
 }
 

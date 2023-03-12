@@ -4,86 +4,86 @@ let gallery = `
     <!-- Gallery -->
     <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="img/1.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/6.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/3.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/4.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/5.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/2.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/7.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/7.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/8.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/8.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/9.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/9.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/10.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/10.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/11.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/11.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/12.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/12.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/13.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/13.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/14.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/14.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/15.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/15.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/16.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/16.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/17.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/17.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/18.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/18.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/19.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/19.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/20.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/20.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/21.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/21.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/22.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/22.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="img/23.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/23.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/24.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/24.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="img/33.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/33.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
 
-            <img src="img/36.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/36.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="img/35.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/35.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="img/34.avif" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
+            <img src="img/34.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="transport vozila" />
         </div>
     </div>
     <!-- Gallery -->
