@@ -1189,7 +1189,7 @@ nav {
     }
 
     .nameOfThePage {
-        margin-top: 200px;
+        margin-top: 280px;
     }
 
     /* .fitImageHeavyService {
@@ -1284,7 +1284,7 @@ nav {
     }
 
     .nameOfThePage {
-        margin-top: 100px;
+        margin-top: 240px;
     }
 
     .fitImageHeavyService {
@@ -1304,7 +1304,7 @@ nav {
     }
 
     #navbarElement {
-        height: 290px;
+        height: 250px;
     }
     
     #pagesListChild {
@@ -1562,7 +1562,7 @@ nav {
 }
 
 
-@media (min-width:440px) and (max-width:570px) {
+@media (min-width:480px) and (max-width:570px) {
 
     #logoWrapper {
         font-size: 19px;
@@ -1574,12 +1574,23 @@ nav {
         font-size: 25px;
     }
 
+    #homeTab,
+    #aboutTab,
+    #galleryTab,
+    #contactTab {
+        font-size: 250%;
+    }
+
     #navbarElement{
-        height: 250px;
+        height: 210px;
+    }
+
+    .nameOfThePage {
+        margin-top: 200px;
     }
 }
 
-@media (min-width:400px) and (max-width:440px) {
+@media (min-width:400px) and (max-width:480px) {
 
     #logoWrapper {
         font-size: 17px;
@@ -1593,6 +1604,21 @@ nav {
 
     #navbarElement{
         height: 220px;
+    }
+
+    #homeTab,
+    #aboutTab,
+    #galleryTab,
+    #contactTab {
+        font-size: 200%;
+    }
+
+    #navbarElement{
+        height: 170px;
+    }
+
+    .nameOfThePage {
+        margin-top: 170px;
     }
 }
 
@@ -1610,6 +1636,21 @@ nav {
 
     #navbarElement{
         height: 200px;
+    }
+
+    #homeTab,
+    #aboutTab,
+    #galleryTab,
+    #contactTab {
+        font-size: 180%;
+    }
+
+    #navbarElement{
+        height: 155px;
+    }
+
+    .nameOfThePage {
+        margin-top: 155px;
     }
 }
 
