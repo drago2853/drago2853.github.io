@@ -1169,6 +1169,7 @@ nav {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+        white-space: nowrap;
     }
 
     #pagesList {
@@ -1375,7 +1376,12 @@ nav {
         padding: 0%;
         margin-bottom: 1%;
         font-size: 14px;
-        margin-left: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photoLarge {
+        width: 100%;
     }
 
     #logoWrapper {
@@ -1445,7 +1451,7 @@ nav {
 @media (min-width:0px) and (max-width:368px) {
 
     #navbarElement {
-        height: 160px;
+        height: 140px;
     }
     
     #homeTab,
@@ -1477,28 +1483,42 @@ nav {
     }
 }
 
+@media (min-width:400px) and (max-width:440px) {
+
+    #logoWrapper {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:440px) and (max-width:490px) {
+
+    #logoWrapper {
+        font-size: 19px;
+    }
+}
+
 @media (min-width:100px) and (max-width:320px) {
+
+    #navbarElement {
+        height: 150px;
+    }
+}
+
+@media (min-width:0px) and (max-width:235px) {
 
     #navbarElement {
         height: 170px;
     }
 }
-
 @media (min-width:0px) and (max-width:235px) {
 
     #navbarElement {
-        height: 190px;
-    }
-}
-@media (min-width:0px) and (max-width:235px) {
-
-    #navbarElement {
-        height: 190px;
+        height: 170px;
     }
 }
 @media (min-width:0px) and (max-width:215px) {
 
     #navbarElement {
-        height: 200px;
+        height: 180px;
     }
 }
