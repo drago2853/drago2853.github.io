@@ -465,8 +465,15 @@ nav {
 }
 
 .photoLarge {
-    margin-left: 5%;
-    width: 100%;
+    margin-left: 1%;
+    width: fit-content;
+    margin-bottom: 0%;
+}
+
+.photoFa {
+    font-size: 25px;
+    color: white;
+    margin-right: 1%;
 }
 
 .logoWrapper {
@@ -485,6 +492,12 @@ nav {
     min-width: 80px;
     width: fit-content;
     padding-left: 0%;
+    white-space: nowrap;
+}
+
+#fName,
+#mob1,
+#mob2 {
     white-space: nowrap;
 }
 
@@ -590,6 +603,7 @@ nav {
         font-size: 20px;
         margin-left: 20px;
         margin-bottom: 0px;
+        white-space: nowrap;
     }
 
     #navbarElement {
@@ -607,7 +621,7 @@ nav {
     }
 }
 
-@media (min-width:1000px) and (max-width:1300px) {
+@media (min-width:1100px) and (max-width:1300px) {
     .photosOnHomePage {
         height: 15%;
     }
@@ -624,6 +638,7 @@ nav {
     #mob1,
     #mob2 {
         font-size: 15px;
+        white-space: nowrap;
     }
 
     #navbarElement {
@@ -642,7 +657,7 @@ nav {
     }
 }
 
-@media (min-width:970px) and (max-width:1000px) {
+@media (min-width:970px) and (max-width:1100px) {
 
     #homeTab,
     #aboutTab,
@@ -674,7 +689,7 @@ nav {
     }
 }
 
-/* @media (min-width:750px) and (max-width:780px) {
+/* @media (min-width:860px) and (max-width:780px) {
     #homeTab,
     #aboutTab,
     #galleryTab,
@@ -741,11 +756,33 @@ nav {
     }
 
     .imageDescriptionHome {
-        margin-bottom: 7%;
+        margin-bottom: 0%;
     }
 
     .imageDescriptionHome2 {
-        margin-bottom: 7%;
+        margin-bottom: 0%;
+    }
+}
+
+@media (min-width:650px) and (max-width:870px) {
+
+    .imageDescriptionHome {
+        margin-bottom: -10%;
+    }
+
+    .imageDescriptionHome2 {
+        margin-bottom: -10%;
+    }
+}
+
+@media (min-width:150px) and (max-width:650px) {
+
+    .imageDescriptionHome {
+        margin-bottom: -20%;
+    }
+
+    .imageDescriptionHome2 {
+        margin-bottom: -20%;
     }
 }
 
@@ -755,48 +792,48 @@ nav {
     }
 
     .imageDescriptionHome {
-        margin-bottom: 10%;
+        margin-bottom: 0%;
     }
 
     .imageDescriptionHome2 {
-        margin-bottom: 10%;
+        margin-bottom: 0%;
     }
 }
 
-@media (min-width:1500px) and (max-width:1800px) {
+@media (min-width:1500px) and (max-width:1840px) {
     .marginTop {
         margin-top: 3%;
     }
 
     .imageDescriptionHome {
-        margin-bottom: 15%;
+        margin-bottom: 0%;
     }
 
     .imageDescriptionHome2 {
-        margin-bottom: 15%;
+        margin-bottom: 0%;
     }
 }
 
-@media (min-width:1300px) and (max-width:1800px) {
+@media (min-width:1100px) and (max-width:1300px) {
     #navbarElement {
-        height: 145px;
+        height: 150px;
     }
 }
 
-@media (min-width:970px) and (max-width:1300px) {
+@media (min-width:1300px) and (max-width:1840px) {
     #navbarElement {
-        height: 135px;
+        height: 155px;
     }
 }
 
 
-@media (min-width:970px) and (max-width:1800px) {
+@media (min-width:970px) and (max-width:1840px) {
 
     #homeTab,
     #aboutTab,
     #galleryTab,
     #contactTab {
-        font-size: 20px;
+        font-size: 26px;
         min-width: 80px;
         width: 100%;
     }
@@ -807,20 +844,37 @@ nav {
         margin-left: 50px;
     }
 
+    .marginLeftSmall {
+        margin-left: 20px;
+    }
+
     #fName,
     #mob1,
     #mob2 {
         margin-top: 1%;
         padding: 0%;
         margin-bottom: 5px;
-        font-size: 20px;
-        margin-left: 2%;
+        font-size: 25px;
+    }
+
+    #mob1,
+    #mob2 {
+        margin-left: 7%;
+    }
+
+    #mob2 {
+        min-width: 300px;
+        width: 100%;
     }
 
     #contantDetails {
         margin-top: 0px;
         padding: 0%;
         margin-bottom: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #navbarElement {
@@ -831,7 +885,7 @@ nav {
     }
 
     #logoWrapper {
-        font-size: 26px;
+        font-size: 30px;
         min-width: 80px;
         margin-left: 5px;
     }
@@ -865,33 +919,59 @@ nav {
     }
 }
 
-@media (min-width:1300px) and (max-width:1800px) {
+@media (min-width:970px) and (max-width:1100px) {
+    #navbarElement {
+        height: 155px;
+    }
+    
+    #fName,
+    #mob1,
+    #mob2 {
+        margin-top: 1%;
+        padding: 0%;
+        margin-bottom: 5px;
+        font-size: 25px;
+        white-space: nowrap;
+    }
+
+    #mob1,
+    #mob2 {
+        margin-left: 3%;
+    }
+
+    #mob2 {
+        min-width: 500px;
+        width: 100%;
+    }
+}
+
+@media (min-width:1300px) and (max-width:1840px) {
     .nameOfThePage {
         height: 100px;
         margin-top: 130px;
     }
 }
 
-@media (min-width:1800px) {
+@media (min-width:1840px) {
     .nameOfThePage {
         height: 130px;
         margin-top: 90px;
     }
 }
 
-@media (min-width:750px) and (max-width:990px) {
+@media (min-width:860px) and (max-width:1100px) {
     #navbarElement {
-        height: 115px;
+        height: 135px;
     }
 }
 
-@media (min-width:750px) and (max-width:990px) {
+@media (min-width:860px) and (max-width:1100px) {
 
     #homeTab,
     #aboutTab,
     #galleryTab,
     #contactTab {
-        font-size: 20px;
+        font-size: 25px;
         min-width: 80px;
         width: 100%;
     }
@@ -902,7 +982,7 @@ nav {
         margin-top: 1%;
         padding: 0%;
         margin-bottom: 1%;
-        font-size: 150%;
+        font-size: 23px;
         margin-left: 2%;
     }
 
@@ -920,8 +1000,9 @@ nav {
     }
 
     #logoWrapper {
-        font-size: 16px;
+        font-size: 23px;
         min-width: 80px;
+        margin-left: 5%;
     }
 
     #pagesList {
@@ -957,14 +1038,93 @@ nav {
     }
 }
 
+@media (min-width:860px) and (max-width:970px) {
+    
+    #fName,
+    #mob1,
+    #mob2 {
+        font-size: 21px;
+        margin-left: 6%;
+    }
 
-@media (min-width:0px) and (max-width:750px) {
+    #mob1,
+    #mob2 {
+        margin-left: 10%;
+    }
+
+    #logoWrapper {
+        font-size: 20px;
+        min-width: 80px;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width:860px) and (max-width:920px) {
+    
+    #fName,
+    #mob1,
+    #mob2 {
+        font-size: 21px;
+        margin-left: 2%;
+    }
+
+    #mob1,
+    #mob2 {
+        margin-left: 5%;
+    }
+
+    #logoWrapper {
+        font-size: 19px;
+        min-width: 80px;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width:860px) and (max-width:900px) {
+    
+    #fName,
+    #mob1,
+    #mob2 {
+        font-size: 19px;
+        margin-left: 9%;
+    }
+
+    #mob1,
+    #mob2 {
+        margin-left: 15%;
+    }
+
+    #logoWrapper {
+        font-size: 19px;
+        min-width: 80px;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width:860px) and (max-width:970px) {
 
     #homeTab,
     #aboutTab,
     #galleryTab,
     #contactTab {
-        font-size: 16px;
+        font-size: 21px;
+        min-width: 80px;
+        width: 100%;
+    }
+
+    #aboutTab,
+    #galleryTab,
+    #contactTab {
+        margin-left: 30px;
+    }
+}
+@media (min-width:0px) and (max-width:860px) {
+
+    #homeTab,
+    #aboutTab,
+    #galleryTab,
+    #contactTab {
+        font-size: 20px;
         min-width: 80px;
         width: 100%;
         margin-bottom: 1%;
@@ -976,8 +1136,7 @@ nav {
         margin-top: 1%;
         padding: 0%;
         margin-bottom: 1%;
-        font-size: 16px;
-        margin-left: 2%;
+        font-size: 22px;
     }
 
     #contantDetails {
@@ -985,6 +1144,13 @@ nav {
         display: table-row-group;
         padding: 0%;
         margin-bottom: 1%;
+    }
+
+    .photoLarge {
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #navbarElement {
@@ -995,7 +1161,7 @@ nav {
     }
 
     #logoWrapper {
-        font-size: 16px;
+        font-size: 21px;
         min-width: 80px;
 
         display: flex;
@@ -1038,10 +1204,10 @@ nav {
     }
 }
 
-@media (min-width:700px) and (max-width:750px) {
+@media (min-width:700px) and (max-width:860px) {
 
     #navbarElement {
-        height: 170px;
+        height: 190px;
     }
 
     .nameOfThePage {
@@ -1052,7 +1218,7 @@ nav {
 @media (min-width:650px) and (max-width:700px) {
 
     #navbarElement {
-        height: 165px;
+        height: 185px;
     }
 
 }
@@ -1060,7 +1226,7 @@ nav {
 @media (min-width:600px) and (max-width:650px) {
 
     #navbarElement {
-        height: 160px;
+        height: 180px;
     }
 
 }
@@ -1068,7 +1234,7 @@ nav {
 @media (min-width:550px) and (max-width:600px) {
 
     #navbarElement {
-        height: 155px;
+        height: 185px;
     }
 
     .nameOfThePage {
@@ -1119,7 +1285,7 @@ nav {
 @media (min-width:450px) and (max-width:550px) {
 
     #navbarElement {
-        height: 145px;
+        height: 180px;
     }
 
     .nameOfThePage {
@@ -1143,7 +1309,7 @@ nav {
 @media (min-width:400px) and (max-width:450px) {
 
     #navbarElement {
-        height: 140px;
+        height: 175px;
     }
 
     .nameOfThePage {
@@ -1167,7 +1333,7 @@ nav {
 @media (min-width:315px) and (max-width:400px) {
 
     #navbarElement {
-        height: 135px;
+        height: 160px;
     }
 
     .nameOfThePage {
@@ -1178,7 +1344,7 @@ nav {
 @media (min-width:100px) and (max-width:315px) {
 
     #navbarElement {
-        height: 140px;
+        height: 160px;
     }
 
     .nameOfThePage {
@@ -1233,7 +1399,7 @@ nav {
     }
 }
 
-@media (min-width:100px) and (max-width:1000px) {
+@media (min-width:100px) and (max-width:1100px) {
 
     .contactDivList {
         margin-top: 0px;
