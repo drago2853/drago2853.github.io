@@ -101,4 +101,4 @@ setTimeout(function() {
     document.getElementById('galleryTemplateId2').innerHTML += gallery2;
     lazyLoadInstance.update();
 
-  }, 3000);
+  }, 2000);
