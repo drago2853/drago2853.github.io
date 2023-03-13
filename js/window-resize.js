@@ -1,5 +1,5 @@
 
-$(window).resize(function () {
+window.addEventListener('resize', function () {
     changeLargeImages();
     setNavbarSmallScreen();
 });

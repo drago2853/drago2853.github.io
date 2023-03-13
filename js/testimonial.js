@@ -81,8 +81,3 @@ let testimonial = `
 
 
 document.getElementById('testimonialTemplateId').innerHTML = testimonial;
-// setTimeout(function() {
-    
-//     lazyLoadInstance.update();
-
-//   }, 5000);

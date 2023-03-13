@@ -33,9 +33,11 @@ let footer = `
 `;
 
 
+let delayFooter = document.getElementById("footerScript").getAttribute("delayFooter");
+
 setTimeout(function() {
     
     document.getElementById('footerTemplateId').innerHTML = footer;
     lazyLoadInstance.update();
 
-  }, 7000);
+  }, parseInt(delayFooter));
