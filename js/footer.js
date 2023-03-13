@@ -32,4 +32,10 @@ let footer = `
 <!-- Footer End -->
 `;
 
-document.getElementById('footerTemplateId').innerHTML = footer;
+
+setTimeout(function() {
+    
+    document.getElementById('footerTemplateId').innerHTML = footer;
+    lazyLoadInstance.update();
+
+  }, 7000);

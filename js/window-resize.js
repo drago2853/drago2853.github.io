@@ -1,13 +1,7 @@
 
-var lazyLoadInstance = new LazyLoad({
-    elements_selector: ".lazy"
-  });
-
-  
 $(window).resize(function () {
     changeLargeImages();
     setNavbarSmallScreen();
-    lazyLoadInstance.update();
 });
 
 function changeLargeImages() {

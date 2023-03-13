@@ -15,4 +15,11 @@ let teamMember = `
 <!-- Team End -->
 `;
 
-document.getElementById('team-memberTemplateId').innerHTML = teamMember;
+
+
+setTimeout(function() {
+    
+    document.getElementById('team-memberTemplateId').innerHTML = teamMember;
+    lazyLoadInstance.update();
+
+  }, 3000);

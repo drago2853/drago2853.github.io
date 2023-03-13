@@ -1,8 +1,8 @@
-let gallery = `
+let gallery1 = `
 <!-- Gallery Start -->
 <div class="container-fluid bg-secondary p-0">
     <!-- Gallery -->
-    <div class="row">
+    <div class="row" id="galleryTemplateId2">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img data-src="img/1.jpg" class="w-100 shadow-1-strong rounded mb-4 lazy" alt="transport vozila" />
 
@@ -38,7 +38,13 @@ let gallery = `
 
             <img data-src="img/12.jpg" class="w-100 shadow-1-strong rounded mb-4 lazy" alt="transport vozila" />
         </div>
+    </div>
+    <!-- Gallery -->
+</div>
+<!-- Gallery End -->
+`;
 
+let gallery2 = `
         <div class="col-lg-4 mb-4 mb-lg-0">
             <img data-src="img/13.jpg" class="w-100 shadow-1-strong rounded mb-4 lazy" alt="transport vozila" />
 
@@ -85,10 +91,14 @@ let gallery = `
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img data-src="img/34.jpg" class="w-100 shadow-1-strong rounded mb-4 lazy" alt="transport vozila" />
         </div>
-    </div>
-    <!-- Gallery -->
-</div>
-<!-- Gallery End -->
 `;
 
-document.getElementById('galleryTemplateId').innerHTML = gallery;
+document.getElementById('galleryTemplateId1').innerHTML = gallery1;
+
+
+setTimeout(function() {
+    
+    document.getElementById('galleryTemplateId2').innerHTML += gallery2;
+    lazyLoadInstance.update();
+
+  }, 2000);
