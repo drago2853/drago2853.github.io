@@ -10,7 +10,7 @@ let navbarTemplate = `
         <p class="link photoLarge"><a class="listNavbarItem" href="tel:+49 170436 2889" id="mob2"><i class="fa fa-phone-alt me-2 photoFa"></i>Viber/WA: +49 170436 2889</a></p>
     </div>
     <ul class="navigation" id="pagesList">
-        <li class="parent paddingChange"><a href="index.html" class="link" id="homeTab">Pocetna</a></li>
+        <li class="parent paddingChange"><a href="index.html" class="link" id="homeTab">Početna</a></li>
         <li class="parent paddingChange"><a href="about.html" class="link" id="aboutTab">O nama</a></li>
         <li class="parent paddingChange"><a href="gallery.html" class="link" id="galleryTab">Galerija</a></li>
         <li class="parent paddingChange"><a href="contact.html" class="link" id="contactTab">Kontakt</a></li>
@@ -31,7 +31,7 @@ let navbarTemplateSmallWindow = `
     </div>
     <ul class="navigation" id="pagesList">
         <ul class="navigation" id="pagesListChild">
-            <li class="parent paddingChange"><a href="index.html" class="link" id="homeTab">Pocetna</a></li>
+            <li class="parent paddingChange"><a href="index.html" class="link" id="homeTab">Početna</a></li>
             <li class="parent paddingChange"><a href="about.html" class="link" id="aboutTab">O nama</a></li>
         </ul>
         <ul class="navigation" id="pagesListChild">
@@ -44,11 +44,16 @@ let navbarTemplateSmallWindow = `
 
 document.getElementById('navbarTemplateId').innerHTML = navbarTemplate;
 
-currentLocation = document.getElementById("scriptNavbar").getAttribute("currentLocation");
-
-if (currentLocation) {
-    document.getElementById(currentLocation).style.color = "rgb(255, 123, 123)";
+// Uklanjanje elementa sa klasom "simplified-view"
+var simplifiedView = document.querySelector('.simplified-view');
+if(simplifiedView) {
+    simplifiedView.parentNode.removeChild(simplifiedView);
 }
+
+
+let currentLocation = document.getElementById("scriptNavbar").getAttribute("currentLocation");
+setSelectedPage()
+
 
 let smallWindowActive = false;
 
@@ -57,5 +62,12 @@ function setNavbarSmallScreen() {
         document.getElementById('navbarTemplateId').innerHTML = navbarTemplateSmallWindow;
     } else {
         document.getElementById('navbarTemplateId').innerHTML = navbarTemplate;
+    }
+    setSelectedPage()
+}
+
+function setSelectedPage() {
+    if (currentLocation) {
+        document.getElementById(currentLocation).style.color = "rgb(255, 123, 123)";
     }
 }
