@@ -55,7 +55,7 @@ let delayMember = document.getElementById("memberScript").getAttribute("delayMem
 
 setTimeout(function() {
     
-    setCorrectLanguageAlt("team-memberTemplateId", teamMemberSerbian, teamMemberEnglish, teamMemberGerman);
+    setCorrectLanguage("team-memberTemplateId", teamMemberSerbian, teamMemberEnglish, teamMemberGerman);
     lazyLoadInstance.update();
 
   }, parseInt(delayMember));
