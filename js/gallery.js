@@ -363,7 +363,6 @@ let gallerySecondGerman = `
 </div>
 `;
 
-document.getElementById('galleryTemplateId1').innerHTML = gallery1;
 setCorrectLanguage("galleryTemplateId1", gallerySerbian, galleryEnglish, galleryGerman);
 
 const lang = navigator.language;
