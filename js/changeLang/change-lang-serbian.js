@@ -9,13 +9,8 @@ document.getElementById('popupChangeLang').innerHTML = popupChangeLangSerbian;
 
 let holdChangeLang = document.getElementById("changeLangScript").getAttribute("holdChangeLang");
 
-setTimeout(function(){
-    document.getElementById('popupChangeLang').className += "fade-in";
-    setTimeout(function(){
-        document.getElementById('popupChangeLang').className += "fade-in";
-    }, parseInt(holdChangeLang));
-}, 1500);
+// document.getElementById('popupChangeLang').className += "fade-in";
 
 setTimeout(function(){
-    window.scrollTo(0, 5);
-}, 500);
+    document.getElementById('popupChangeLang').className += "fade-in";
+}, parseInt(holdChangeLang));
