@@ -6,7 +6,11 @@
         
         const baseUrl = "https://drago2853.github.io";
 
-        const lang = navigator.language;
+        const preferredLanguage = localStorage.getItem('transportEvropaPreferredLanguage');
+        console.log(preferredLanguage);
+
+        const lang = preferredLanguage != null ? preferredLanguage : navigator.language;
+
         if(lang.indexOf("de") != -1) {
             window.location.href = baseUrl + '/fahrzeugtransport-europa.html';
 
