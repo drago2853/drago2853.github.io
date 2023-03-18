@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <script>
+        
+        const baseUrl = "https://drago2853.github.io";
+
         const lang = navigator.language;
         if(lang.indexOf("de") != -1) {
-            window.location.href = 'https://drago2853.github.io/fahrzeugtransport-europa.html';
+            window.location.href = baseUrl + '/fahrzeugtransport-europa.html';
 
         } else if(lang.indexOf("rs") != -1) {
-            window.location.href = 'https://drago2853.github.io/prevoz-transport-vozila-evropa.html';
+            window.location.href = baseUrl + '/prevoz-transport-vozila-evropa.html';
             
         } else {
-            window.location.href = 'https://drago2853.github.io/vehicle-transportation-europe.html';
+            window.location.href = baseUrl + '/vehicle-transportation-europe.html';
         }
     </script>
 </head>
