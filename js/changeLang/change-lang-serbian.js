@@ -9,8 +9,9 @@ document.getElementById('popupChangeLang').innerHTML = popupChangeLangSerbian;
 
 let holdChangeLang = document.getElementById("changeLangScript").getAttribute("holdChangeLang");
 
-// document.getElementById('popupChangeLang').className += "fade-in";
-
 setTimeout(function(){
     document.getElementById('popupChangeLang').className += "fade-in";
-}, parseInt(holdChangeLang));
+    setTimeout(function(){
+        document.getElementById('popupChangeLang').className += "fade-in";
+    }, parseInt(holdChangeLang));
+}, 1500);

@@ -11,7 +11,6 @@ let holdChangeLang = document.getElementById("changeLangScript").getAttribute("h
 
 setTimeout(function(){
     document.getElementById('popupChangeLang').className += "fade-in";
-    window.scrollTo(0, 0);
     setTimeout(function(){
         document.getElementById('popupChangeLang').className += "fade-in";
     }, parseInt(holdChangeLang));
