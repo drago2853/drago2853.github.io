@@ -1,5 +1,5 @@
 let popupChangeLangEnglish = `
-<p>Choose your preferred language: 
+<p>Choose your preferred language: <br>
     <a href="fahrzeugtransport-europa.html">German</a> | 
     <a href="prevoz-transport-vozila-evropa.html">Serbian</a>
 </p>
