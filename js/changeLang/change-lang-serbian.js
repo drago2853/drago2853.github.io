@@ -1,7 +1,7 @@
 let popupChangeLangSerbian = `
-<p>Wählen Sie Ihre gewünschte Sprache: 
-    <a href="vehicle-transportation-europe.html">Englisch</a> | 
-    <a href="prevoz-transport-vozila-evropa.html">Serbisch</a>
+<p>Odaberite željeni jezik: 
+    <a href="vehicle-transportation-europe.html">Engleski</a> | 
+    <a href="fahrzeugtransport-europa.html">Nemački</a>
 </p>
 `;
 
