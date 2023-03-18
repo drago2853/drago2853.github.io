@@ -11,5 +11,5 @@ setTimeout(function(){
     document.getElementById('popupChangeLang').className += "fade-in";
     setTimeout(function(){
         document.getElementById('popupChangeLang').className += "fade-in";
-    }, 7000);
+    }, 10000);
 }, 1500);
