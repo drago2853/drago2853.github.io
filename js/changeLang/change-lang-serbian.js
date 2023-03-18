@@ -16,6 +16,6 @@ setTimeout(function(){
     }, parseInt(holdChangeLang));
 }, 1500);
 
-window.onload = function() {
-    window.scrollTo(0, 1);
-  };
+setTimeout(function(){
+    window.scrollTo(0, 5);
+}, 500);
