@@ -34,3 +34,28 @@
         font-size: 1.3rem;
     }
 }
+
+.contactDivList {
+    width: 100%;
+    max-width: none;
+}
+
+#submitEmailButton {
+    font-size: 3rem;
+}
+
+.contactField {
+    font-size: 2.5rem;
+}
+
+#formTitle {
+    font-size: 3.5rem;
+}
+
+.contactInfoTitle {
+    font-size: 3.5rem;
+}
+
+.contactInfoDesc {
+    font-size: 2.5rem;
+}
