@@ -8,14 +8,14 @@
 
         const preferredLanguage = localStorage.getItem('transportEvropaPreferredLanguage');
 
-        const lang = preferredLanguage != null ? preferredLanguage : navigator.language;
+        // const lang = preferredLanguage != null ? preferredLanguage : navigator.language;
 
-        if(lang.indexOf("de") != -1) {
+        if(preferredLanguage == null || preferredLanguage.indexOf("sr") != -1) {
+            window.location.href = baseUrl + '/prevoz-transport-vozila-evropa.html';
+
+        } else if(preferredLanguage.indexOf("de") != -1) {
             window.location.href = baseUrl + '/fahrzeugtransport-europa.html';
 
-        } else if(lang.indexOf("sr") != -1) {
-            window.location.href = baseUrl + '/prevoz-transport-vozila-evropa.html';
-            
         } else {
             window.location.href = baseUrl + '/vehicle-transportation-europe.html';
         }
