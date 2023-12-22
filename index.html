@@ -4,21 +4,6 @@
     <meta charset="UTF-8">
     <script>
         
-        const baseUrl = "https://drago2853.github.io";
-
-        const preferredLanguage = localStorage.getItem('transportEvropaPreferredLanguage');
-
-        // const lang = preferredLanguage != null ? preferredLanguage : navigator.language;
-
-        if(preferredLanguage == null || preferredLanguage.indexOf("sr") != -1) {
-            window.location.href = baseUrl + '/prevoz-transport-vozila-evropa.html';
-
-        } else if(preferredLanguage.indexOf("de") != -1) {
-            window.location.href = baseUrl + '/fahrzeugtransport-europa.html';
-
-        } else {
-            window.location.href = baseUrl + '/vehicle-transportation-europe.html';
-        }
     </script>
 </head>
 <body>
