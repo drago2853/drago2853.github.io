@@ -11753,3 +11753,7 @@ textarea.form-control {
 .subtitle {
   font-weight: 600;
 }
+
+.title {
+  text-align: center;
+}
